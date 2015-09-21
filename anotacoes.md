@@ -1,8 +1,9 @@
-spring-vaadin-jpa-example
+REVINFO
 =========================
 
-Example of Spring 3 + Spring Security 3 + Vaadin 7 + JPA(Hibernate) + Envers + Joda Time web application
-
+* Tabela global (para todas as entidades)
+* Possui por padrão os campos id e timestamp
+*  Podem ser criados campos adicionais com a anotação *RevisionEntity*. Veja [AuditedEntity](svexample-web/src/main/java/pl/pawelb/svexample/ds/AuditedEntity.java)
 
 
 
